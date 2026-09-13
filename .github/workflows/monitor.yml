@@ -2,7 +2,7 @@ name: Monitor de promoções no Telegram
 
 on:
   schedule:
-    - cron: '*/5 * * * *'   # roda a cada 15 minutos
+    - cron: '*/5 * * * *'   # roda a cada 5 minutos
   workflow_dispatch:          # permite rodar manualmente pela aba "Actions"
 
 permissions:
